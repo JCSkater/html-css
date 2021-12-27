@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            /* 
+            medidas absolutas
+            cm, mm, in, px, pt, pc
+
+            medidas relativas
+            em, ex, rem, vw, vh, %
+            16px geralmente = 1em
+
+            PRIORIZE USAR PX OU EM
+            */
+            font-size: 1em;
+
+            /* 
+            Font-weight pode ser: lighter, normal, bold e bolder
+            */
+        }
+
+        h1{
+            /* Shorthand font
+            font-stye -> font-weight -> font-size -> font family
+
+            font-family: sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            */
+            font: italic bolder 3em sans-serif;
+        }
+
+        h2{
+            font: bold 2em sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt est expedita doloribus culpa impedit molestiae ab voluptatibus quos, illo, aliquam ad delectus sequi voluptate voluptas saepe ducimus assumenda, maiores blanditiis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error expedita incidunt sed quia dolore pariatur vel cupiditate perferendis facere ipsam repellat, maiores provident ab tempore aut ducimus blanditiis? Minima, iste! Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores sit, deleniti magnam possimus voluptatum enim. Odit neque dicta, voluptas repudiandae consectetur tempora, quae aspernatur recusandae ipsum velit, corporis quibusdam ipsam.</p>
+    <h2>Subtitulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum ex asperiores sapiente placeat suscipit. Qui maxime officiis blanditiis tenetur inventore. Quas minima quasi similique optio commodi facere quia dicta illum.</p>
+</body>
+</html>

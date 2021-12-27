@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: royalblue;
+            margin: 0px;
+        }
+        header{
+            background-color: seashell;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        h1 {
+            text-align: center;
+            text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.384);
+        }
+        nav {
+            background-color: rgb(6, 152, 243);
+            padding: 3px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.418);
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+        }
+
+        section > a {
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+        }
+        main {
+            background-color: rgb(255, 255, 255);
+            padding: 10px;
+            margin: 10px;
+            width: auto;
+            height: auto;
+            border-radius: 20px 0px;
+        }
+        
+        article {
+            background-color: lightgray;
+            padding-bottom: 20px;
+        }
+
+        article > aside {
+                background-color: darkgray;
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Musculação para iniciantes</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Fotos</a>
+            <a href="#">Quem Somos</a>
+            <a href="#">Contatos</a>
+        </nav>
+    </header>
+    <main>
+        <section id="Assuntos">
+            <a href="#">Peito</a>
+            <a href="#">Costas</a>
+            <a href="#">Braços</a>
+            <a href="#">Pernas</a>
+        </section>
+        <section id="Noticias">
+            <article>
+                <h2>Noticias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat repellendus laboriosam et praesentium, eum nisi inventore aspernatur quae tempora obcaecati ratione vel odio! Dignissimos voluptatum maiores quasi, vitae explicabo et.</p>
+                <aside>
+                    <p>Artigo escrito por João C. Santos</p>
+                    <p></p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por João C. Santos</p>
+    </footer>
+</body>
+</html>

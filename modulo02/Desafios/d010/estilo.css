@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+:root {
+    --cor0: #c5ebd6;
+    --cor1: #83E1AD;
+    --cor2: #3DDC84;
+    --cor3: #2FA866;
+    --cor4: #1A5C37;
+    --cor5: #063d1e;
+}
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+}
+
+header{
+    color: white;
+    text-align: center;
+}
+
+nav{
+    color: white;
+}
+
+main {
+    background-color: white;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+main h1 {
+    color: var(--cor5);
+    font-family: ;
+}
+
+
+main img {
+    width: 100%;
+}
+
+#titulo {
+    color: white;
+}
+
+.subtitulo {
+    text-align: center;
+}
+
+p{
+    text-indent: 20px;
+    text-align: justify;
+}
+
+footer{
+    color: white;
+    text-align: center;
+}
