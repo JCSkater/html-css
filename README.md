@@ -3,4 +3,4 @@
 
  Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
 
- <a href="https://jcskater.github.io/html-css/modulo01/exercicios/ex001/index.html">Executar o exercício 001</a>
+ <a href="https://jcskater.github.io/projeto-android/">Meu primeiro site feito com o Curso em Vídeo</a>
