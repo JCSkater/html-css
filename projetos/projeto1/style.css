@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background: gray;
+    color: white;
+}
+
+header > h1 {
+    padding: 40px;
+    text-align: center;
+    font-size: 50px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+
+body {
+    background-color: rgb(182, 180, 180);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+article > div {
+    background-color: white;
+    width: 500px;
+    text-align: justify;
+    padding: 10px;
+    margin: auto;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    padding: 05px;
+}
