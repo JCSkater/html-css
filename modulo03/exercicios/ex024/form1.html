@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        input {
+            margin-bottom: 15px;
+        }
+
+        label, p {
+            font-size: 18px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Cadastro</h1>
+    </header>
+
+    <main>
+        <form action="#">
+           
+            <label for="p_nome">Nome:</label><br>
+            <input type="text" id="p_nome" name="p_nome" style="height:20px"><br>
+            <label for="s_nome">Sobrenome:</label><br>
+            <input type="text" id="s_nome" name="s_nome" style="height:20px"><br>
+            <label for="idade">Idade:</label><br>
+            <input type="number" id="idade" name="idade" min="1" max="120" style="height:20px"><br>
+            <label for="birthday">Selecione a sua data de nascimento:</label><br>
+            <input type="date" id="birthday" name="birthday">
+            
+            <p>Qual a sua orientação sexual?</p>
+            <input type="radio" name="sexo" id="m_sexo" value="Masculino">
+            <label for="m_sexo">Masculino</label><br>
+            <input type="radio" name="sexo" id="f_sexo" value="Feminino">
+            <label for="f_sexo">Feminino</label><br>
+            <input type="radio" name="sexo" id="n_sexo" value="Não Binário">
+            <label for="n_sexo">Não-binário</label><br>
+
+            <p>Quais eletrodomesticos você possui?</p>
+            <input type="checkbox" id="eletro1" name="eletro1" value="TV">
+            <label for="vehicle1">TV</label><br>
+            <input type="checkbox" id="eletro2" name="eletro2" value="Geladeira">
+            <label for="vehicle2">Geladeira</label><br>
+            <input type="checkbox" id="eletro3" name="eletro3" value="Microondas">
+            <label for="vehicle3">Microondas</label><br>
+
+            <input type="submit" value="Salvar" onclick="alert('Formulário Salvo')">
+            <input type="reset">
+        </form>
+    </main>
+</body>
+</html>
